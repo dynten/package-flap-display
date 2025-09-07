@@ -11,7 +11,7 @@
             [[25, 10], "25 × 10 cells"],
             [[32, 16], "32 × 16 cells"]
         ],
-        "default": [25, 10]
+        "default": [32, 16]
     }, {
         "title": "Charset/Style",
         "ui_width": 4,
