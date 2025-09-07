@@ -10,7 +10,7 @@ util.no_globals()
 
 local styles = {
     classic = {
-        charset = ' abcdefghijklmnopqrstuvwxyzåäöü0123456789@#-.,:?!()',
+        charset = ' abcdefghijklmnopqrstuvwxyzäöü0123456789@#-.,:?!()',
         texture = 'style-classic.png',
         rows = 16,
         cols = 32,
