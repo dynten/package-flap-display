@@ -5,7 +5,7 @@ from ibquery import InfoBeamerQuery
 while 1:
     ib = InfoBeamerQuery("127.0.0.1")
     con = ib.node("display/atomic").io(raw=True)
-    con.write("Hello\nWorld\n%d\n" % time.time())
+    con.write("Hello\nWorld\n%d\n" % time.time().strftime('%Y-%m-%d %H:%M:%S'))
     con.close()
 
     time.sleep(1)
