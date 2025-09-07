@@ -29,5 +29,10 @@
         "type": "text",
         "rows": 10,
         "default": "This is a flappy display\nEnter your text here\n"
-    }]
+    }],
+	"permissions": {
+		"high-prio":"Prioriterad",
+		"network":"Access internet",
+		"gpio":"Access GPIO-port"
+	}
 }
